@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>birth Page</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/cows">Cow Management</a></li>
+            <li><a href="/consultations">Medical Consultations</a></li>
+            <li><a href="/births">Cow Births</a></li>
+            <li><a href="/milk">Milk Production</a></li>
+        </ul>
+    </div>
+            <div class="main-content">
+            <header>
+                <h1>Cow Births Registration</h1!>
+            </header>
+            <main>
+                <section class="list">
+                    <h2>Birth Registrations List</h2>
+                    
+                    
+                    <table id="Table">
+                        <thead>
+                            <tr>
+                                <th>Birth n°</th>
+                                <th>Cow ID</th>
+                                <th>Date </th> 
+                            </tr>
+                        </thead>
+                        <tbody id="birthList"></tbody>
+                    </table>
+
+                </section>
+                <div id="editModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Edit birth</h2>
+                        <form id="editForm">
+                            <!-- Input fields for editing birth information -->
+                            <label for="editID" >Cow ID:</label>
+                            <input type="text" id="editID" name="editID" disabled>
+                            <label for="editCowID" >Cow ID:</label>
+                            <input type="text" id="editCowID" name="editCowID" required>
+                            <label for="editBirthDate">Birth Day:</label>
+                            <input type="date" id="editBirthDate" name="editBirthDate" required>
+                            
+                            <!-- Add more fields as needed -->
+                            <button  id="saveButton" type="submit">Save Changes</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="deleteModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close-delete"> </span>
+                        <h2>Delete birth</h2>
+                        <form id="deleteForm">
+                            <!-- Display the birth information to confirm deletion -->
+                            <label for="deleteID">birth ID:</label>
+                            <input type="text" id="deleteID" name="deleteID" disabled>
+
+                            <label for="deleteCowID">Cow ID:</label>
+                            <input type="text" id="deleteCowID" name="deleteCowID" disabled>
+
+                            <label for="deleteBirthDate">Birth Date:</label>
+                            <input type="text" id="deleteBirthDate" name="deleteBirthDate" disabled>
+
+                            <!-- Confirmation message -->
+                            <p>Are you sure you want to delete this birth?</p>
+                
+                            <!-- Buttons for confirming or canceling the deletion -->
+                            <button id="confirmDeleteButton" type="submit">Confirm Delete</button>
+                            <button id="cancelDeleteButton">Cancel</button>
+                        </form>
+                    </div>
+                </div>
+                
+
+                <section class="add">
+                    <h2>Add a New birth</h2>
+                    <div class="form-container">
+                        <form id="Form">
+                            <label for="birthID">Birth ID:</label>
+                            <input type="text" id="birthID" name="birthID" disabled>
+                            <label for="cowBirthID">Cow ID:</label>
+                            <input type="text" id="cowBirthID" name="cowBirthID" required>
+                            <label for="birthDate">Birth Date:</label>
+                            <input type="date" id="birthDate" name="birthDate" required>
+
+                            <button type="submit">Add birth</button>
+                        </form>
+                    </div>
+                </section>
+                </main>
+            <script src="./script_birth.js"></script>
+        </body>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2023 Milk Way</p>
+
+            </div>
+        </footer>
+    </div>
+</html>

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "cowid": 1,
+    "date": "2023-09-26",
+    "diagnostic": "Infection"
+  },
+  {
+    "id": 2,
+    "cowid": 2,
+    "date": "2023-09-27",
+    "diagnostic": "Parasitic Infection"
+  },
+  {
+    "id": 3,
+    "cowid": 3,
+    "date": "2023-09-28",
+    "diagnostic": "Milk Fever"
+  },
+  {
+    "id": 4,
+    "cowid": 4,
+    "date": "2023-09-29",
+    "diagnostic": "-"
+  },
+  {
+    "id": 5,
+    "cowid": 5,
+    "date": "2023-09-30",
+    "diagnostic": "Infection"
+  },
+  {
+    "id": 6,
+    "cowid": 6,
+    "date": "2023-10-01",
+    "diagnostic": "-"
+  },
+  {
+    "id": 7,
+    "cowid": 7,
+    "date": "2023-10-02",
+    "diagnostic": "Brucellosis"
+  },
+  {
+    "id": 8,
+    "cowid": 8,
+    "date": "2023-10-03",
+    "diagnostic": "Parasitic Infection"
+  },
+  {
+    "id": 9,
+    "cowid": 2,
+    "date": "2023-09-25",
+    "diagnostic": "Mad Cow"
+  },
+  {
+    "id": 10,
+    "cowid": 11,
+    "date": "2023-09-25",
+    "diagnostic": "Digestive Problem"
+  },
+  {
+    "id": 11,
+    "cowid": 8,
+    "date": "2023-09-25",
+    "diagnostic": "-"
+  },
+  {
+    "id": 12,
+    "cowid": 1,
+    "date": "2023-09-25",
+    "diagnostic": "Mad Cow"
+  },
+  {
+    "id": 13,
+    "cowid": 5,
+    "date": "2023-09-25",
+    "diagnostic": "Mad Cow"
+  },
+  {
+    "id": 14,
+    "cowid": 13,
+    "date": "2023-09-25",
+    "diagnostic": "Infection"
+  }
+]

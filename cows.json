@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "name": "Bessie",
+    "breed": "Holstein",
+    "dateOfBirth": "2019-11-15"
+  },
+  {
+    "id": 2,
+    "name": "Molly",
+    "breed": "Montbeliard",
+    "dateOfBirth": "2019-11-25"
+  },
+  {
+    "id": 3,
+    "name": "Daisy",
+    "breed": "Holstein",
+    "dateOfBirth": "2018-09-12"
+  },
+  {
+    "id": 4,
+    "name": "Charlie",
+    "breed": "Montbeliard",
+    "dateOfBirth": "2021-04-03"
+  },
+  {
+    "id": 5,
+    "name": "Luna",
+    "breed": "Holstein",
+    "dateOfBirth": "2019-10-22"
+  },
+  {
+    "id": 6,
+    "name": "Rosie",
+    "breed": "Montbeliard",
+    "dateOfBirth": "2020-07-14"
+  },
+  {
+    "id": 7,
+    "name": "Max",
+    "breed": "Holstein",
+    "dateOfBirth": "2022-02-28"
+  },
+  {
+    "id": 8,
+    "name": "Buddy",
+    "breed": "Montbeliard",
+    "dateOfBirth": "2017-12-19"
+  },
+  {
+    "id": 9,
+    "name": "Lola",
+    "breed": "Holstein",
+    "dateOfBirth": "2019-03-08"
+  },
+  {
+    "id": 10,
+    "name": "Oreo",
+    "breed": "Montbeliard",
+    "dateOfBirth": "2020-11-10"
+  },
+  {
+    "id": 11,
+    "name": "Bella",
+    "breed": "Holstein",
+    "dateOfBirth": "2023-09-26"
+  },
+  {
+    "id": 12,
+    "name": "Bossy",
+    "breed": "Holstein",
+    "dateOfBirth": "2023-10-02"
+  },
+  {
+    "id": 13,
+    "name": "Gertie",
+    "breed": "Holstein",
+    "dateOfBirth": "2023-09-27"
+  },
+  {
+    "id": 14,
+    "name": "Dottie",
+    "breed": "Holstein",
+    "dateOfBirth": "2023-09-26"
+  },
+  {
+    "id": 15,
+    "name": "Magic",
+    "breed": "Holstein",
+    "dateOfBirth": "2023-09-26"
+  },
+  {
+    "id": 16,
+    "name": "Clarabelle",
+    "breed": "Holstein",
+    "dateOfBirth": "2023-09-29"
+  },
+  {
+    "id": 17,
+    "name": "Rosie",
+    "breed": "Montbeliard",
+    "dateOfBirth": "2023-09-26"
+  },
+  {
+    "id": 18,
+    "name": "Penny",
+    "breed": "Holstein",
+    "dateOfBirth": "2023-09-26"
+  },
+  {
+    "id": 19,
+    "name": "Nellie",
+    "breed": "Montbeliard",
+    "dateOfBirth": "2023-09-24"
+  }
+]

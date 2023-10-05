@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>consultation Page</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/cows">Cow Management</a></li>
+            <li><a href="/consultations">Medical Consultations</a></li>
+            <li><a href="/births">Cow Births</a></li>
+            <li><a href="/milk">Milk Production</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+            <header>
+                <h1>Medical Consultations</h1!>
+            </header>
+            
+            <main>
+                <section class="list">
+                    <h2>Medical Consultations List</h2>
+                    
+                    
+                    <table id="Table">
+                        <thead>
+                            <tr>
+                                <th>Consultation n°</th>
+                                <th>Cow ID</th>
+                                <th>Date </th>
+                                <th>Diagnostic</th> 
+                            </tr>
+                        </thead>
+                        <tbody id="consultationList"></tbody>
+                    </table>
+
+                </section>
+                <div id="editModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <h2>Edit consultation</h2>
+                        <form id="editForm">
+                            <!-- Input fields for editing consultation information -->
+                            <label for="editID" >Cow ID:</label>
+                            <input type="text" id="editID" name="editID" disabled>
+                            <label for="editCowID" >Cow ID:</label>
+                            <input type="text" id="editCowID" name="editCowID" disabled>
+                            <label for="editConsultationDate">Consultation Day:</label>
+                            <input type="date" id="editConsultationDate" name="editConsultationDate" required>
+                            <label for="editDiagnostic">Diagnostic:</label>
+                            <input type="text" id="editDiagnostic" name="editDiagnostic" required>
+                            <!-- Add more fields as needed -->
+                            <button  id="saveButton" type="submit">Save Changes</button>
+                        </form>
+                    </div>
+                </div>
+                <div id="deleteModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close"> </span>
+                        <h2>Delete consultation</h2>
+                        <form id="deleteForm">
+                            <!-- Display the consultation information to confirm deletion -->
+                            <label for="deleteID">consultation ID:</label>
+                            <input type="text" id="deleteID" name="deleteID" disabled>
+
+                            <label for="deleteCowID">Cow ID:</label>
+                            <input type="text" id="deleteCowID" name="deleteCowID" disabled>
+
+                            <label for="deleteConsultationDate">Consultation Date:</label>
+                            <input type="text" id="deleteConsultationDate" name="deleteConsultationDate" disabled>
+
+                            <label for="deleteDiagnostic">Diagnostic:</label>
+                            <input type="text" id="deleteDiagnostic" name="deleteDiagnostic" disabled>
+                            <!-- Confirmation message -->
+                            <p>Are you sure you want to delete this consultation?</p>
+                
+                            <!-- Buttons for confirming or canceling the deletion -->
+                            <button id="confirmDeleteButton" type="submit">Confirm Delete</button>
+                            <button id="cancelDeleteButton">Cancel</button>
+                        </form>
+                    </div>
+                </div>
+                
+
+                <section class="add">
+                    <h2>Add a New consultation</h2>
+                    <div class="form-container">
+                        <form id="Form">
+                            <label for="consulID">Consultation ID:</label>
+                            <input type="text" id="consulID" name="consulID" disabled>
+                            <label for="cowConsulID">Cow ID:</label>
+                            <input type="text" id="cowConsulID" name="cowConsulID" required>
+                            <label for="consulDate">Consultation Date:</label>
+                            <input type="date" id="consulDate" name="consulDate" required>
+                            <label for="consulDiag">Consultation Diagnostic:</label>
+                            <input type="text" id="consulDiag" name="consulDiag" required>
+                            <button type="submit">Add consultation</button>
+                        </form>
+                    </div>
+                </section>
+                </main>
+            <script src="./script_consul.js"></script>
+        </body>
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2023 Milk Way</p>
+
+            </div>
+        </footer>
+    </div>
+</html>
